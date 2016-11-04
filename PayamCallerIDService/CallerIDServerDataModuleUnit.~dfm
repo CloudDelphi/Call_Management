@@ -1,0 +1,55 @@
+object CallerIDServerDataModule: TCallerIDServerDataModule
+  OldCreateOrder = False
+  Left = 253
+  Top = 422
+  Height = 234
+  Width = 751
+  object CallerQuery: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 96
+    Top = 40
+  end
+  object LogCallQuery: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 168
+    Top = 40
+  end
+  object EmployeeQuery: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 248
+    Top = 40
+  end
+  object CallLogSequence: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 336
+    Top = 40
+  end
+  object TestConnection: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 400
+    Top = 40
+  end
+  object ADOConnection: TADOConnection
+    LoginPrompt = False
+    Provider = 'MSDAORA.1'
+    Left = 24
+    Top = 40
+  end
+  object CityQuery: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 464
+    Top = 40
+  end
+  object MissedCallQuery: TADOQuery
+    Connection = ADOConnection
+    Parameters = <>
+    Left = 520
+    Top = 40
+  end
+end
